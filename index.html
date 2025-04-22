@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shill Vibes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SHILL VIBES</h1>
+        <!-- We're recreating the entire orbit container from scratch to avoid any background image issues -->
+        <div class="orbit-container">
+            <!-- Dark space background with grid overlay -->
+            <div class="orbit-background"></div>
+            
+            <!-- Concentric orbit rings -->
+            <div id="orbit-rings"></div>
+            
+            <!-- Outer text rings - Create with JavaScript for circular path -->
+            <div id="text-ring-container-1" class="text-ring-container"></div>
+            <div id="text-ring-container-2" class="text-ring-container"></div>
+            
+            <!-- Platform nodes will be placed here -->
+            <div id="orbit-map"></div>
+            
+            <!-- Token core (SHILL ALL) - Custom implementation to avoid the button at the bottom -->
+            <div id="token-core">
+                <div class="token-core-orb">
+                    <div class="token-core-inner">SHILL ALL</div>
+                </div>
+                <div class="core-pulse"></div>
+            </div>
+            
+            <!-- Tooltip for platforms -->
+            <div id="tooltip" class="tooltip"></div>
+        </div>
+    </div>
+    <div id="copy-message">Copied to clipboard!</div>
+    <div id="fullscreen-cover" style="display: flex;" onclick="document.getElementById('fullscreen-cover').style.display = 'none'">
+        <div class="fullscreen-message">
+            <h2>Click anywhere to continue to Shill Vibes</h2>
+            <p>Note: The bottom "SHILL ALL" button is part of a background image and can be ignored.</p>
+        </div>
+    </div>
+    
+    <script src="orbit.js"></script>
+</body>
+</html>

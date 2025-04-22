@@ -1,0 +1,74 @@
+{
+  "platforms": [
+    {
+      "name": "Twitter",
+      "logo": "logos/twitter_logo.png",
+      "prefill_link": "https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20token!%20%23crypto%20%23token",
+      "friction_level": "low",
+      "prefill": true
+    },
+    {
+      "name": "Reddit",
+      "logo": "logos/reddit_logo.png",
+      "prefill_link": "https://www.reddit.com/submit?title=Amazing%20Token&url=https://token.example.com",
+      "friction_level": "medium",
+      "prefill": true
+    },
+    {
+      "name": "Telegram",
+      "logo": "logos/telegram_logo.png",
+      "prefill_link": "",
+      "friction_level": "high",
+      "prefill": false
+    },
+    {
+      "name": "Discord",
+      "logo": "logos/discord_logo.png",
+      "prefill_link": "",
+      "friction_level": "high",
+      "prefill": false
+    },
+    {
+      "name": "Facebook",
+      "logo": "logos/facebook_logo.png",
+      "prefill_link": "https://www.facebook.com/sharer/sharer.php?u=https://token.example.com",
+      "friction_level": "low",
+      "prefill": true
+    },
+    {
+      "name": "WhatsApp",
+      "logo": "logos/whatsapp_logo.png",
+      "prefill_link": "https://wa.me/?text=Check%20out%20this%20amazing%20token!%20https://token.example.com",
+      "friction_level": "medium",
+      "prefill": true
+    },
+    {
+      "name": "LinkedIn",
+      "logo": "logos/linkedin_logo.png",
+      "prefill_link": "https://www.linkedin.com/sharing/share-offsite/?url=https://token.example.com",
+      "friction_level": "medium",
+      "prefill": true
+    },
+    {
+      "name": "TikTok",
+      "logo": "logos/tiktok_logo.png",
+      "prefill_link": "",
+      "friction_level": "high",
+      "prefill": false
+    },
+    {
+      "name": "Instagram",
+      "logo": "logos/instagram_logo.png",
+      "prefill_link": "",
+      "friction_level": "high",
+      "prefill": false
+    },
+    {
+      "name": "Snapchat",
+      "logo": "logos/snapchat_logo.png",
+      "prefill_link": "",
+      "friction_level": "high",
+      "prefill": false
+    }
+  ]
+}
